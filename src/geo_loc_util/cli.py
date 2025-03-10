@@ -1,14 +1,11 @@
 from jproperties import Properties
 import requests
 import click
-import json
 
 config = Properties()
 
 with open('../../conf/config.properties', 'rb') as config_file:
     config.load(config_file)
-# base_url = "http://api.openweathermap.org/geo/1.0"
-# api_key = "f897a99d971b5eef57be6fafa0d83239"
 base_url = config.get("base_url").data
 api_key = config.get("api_key").data
 result_limit = "5"
