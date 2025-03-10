@@ -8,5 +8,5 @@ and be called using command line options, examples are list below:
 A help menu is also available using the `--help option` when calling `cli.py` 
 
 ### project configuration
-The project using pipenv to install the necessary dependencies and set up a virtual env.  There is also a [config.properties](./conf/config.properties) 
+The project is using pipenv to install the necessary dependencies and set up a virtual env.  There is also a [config.properties](./conf/config.properties) 
 file that contains the base_url for the api being called and the api_key or appId
